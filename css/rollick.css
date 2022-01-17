@@ -233,6 +233,7 @@ body{background: #ECECEC;}
     top: 10px;
 }
 .button--combo{
+    border: 1px solid #853636;
     position: absolute;
     right: 340px;
     top: 420px;
@@ -308,6 +309,7 @@ color: #fff;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -320,11 +322,23 @@ color: #fff;
     color: #fff;
 }
 .prisse__btn p {
-    font-size: 20px;
+    font-size: 17px;
+    color: #ffbc00;
     font-family: 'PT Sans', sans-serif;
+}
+.prisse__btn {
+    width: 115px;
+    padding: 5px;
+    height: 36px;
+    background: #000000;
+    text-align: center;
+    border-radius: 6px;
 }
 
 .prisse__content{
     display: flex;
     align-items: baseline;
 }
+
+
+
