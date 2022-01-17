@@ -52,7 +52,9 @@ a:not([class]) {
 img {
   max-width: 100%;
   display: block;
+  image-rendering:  -webkit-optimize-contrast;
 }
+
 
 /* Указываем понятную периодичность в потоке данных у article*/
 article > * + * {
@@ -100,7 +102,18 @@ body{background: #ECECEC;}
 }
 .page__block-logo{
     margin-left: 40px;
+  
 }
+.page__block-logo img{
+    width: 110px;
+    height: 110px;
+}
+
+/* .block-lo{
+   image-rendering: pixelated;
+} */
+
+
 .block__logo{
     display: flex;
     flex-direction: column;
@@ -165,9 +178,11 @@ body{background: #ECECEC;}
 }
 .combo__items img{
     border-radius: 10px;
+  
 }
 .combo__items-li img{
     position: relative;
+ 
 }
 .combo__items{
     border-radius: 10px;
@@ -261,6 +276,11 @@ body{background: #ECECEC;}
     background-color: #0000008a;
     border-radius: 10px;
 }
+.block__with--items{
+    width: 259px;
+    margin: 0 auto;
+}
+
 .st__bl--options {
     border-radius: 10px;
     margin: 23px auto;
@@ -283,4 +303,28 @@ color: #fff;
 .st__text .colum__setui{
     color: #b9b9b9;
     font-size: 14px;
+}
+.prisse__container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.prisse__content h3{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.prisse__content p{
+    font-size: 20px;
+    color: #fff;
+}
+.prisse__btn p {
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.prisse__content{
+    display: flex;
+    align-items: baseline;
 }
